@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A108E01A1F711C20002A553D /* RapidXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A108E0171F711C20002A553D /* RapidXml.cpp */; };
+		A108E01C1F711C37002A553D /* rapidxml_iterators.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A108E0141F711C20002A553D /* rapidxml_iterators.hpp */; };
+		A108E01D1F711C37002A553D /* rapidxml_print.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A108E0151F711C20002A553D /* rapidxml_print.hpp */; };
+		A108E01E1F711C37002A553D /* rapidxml_utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A108E0161F711C20002A553D /* rapidxml_utils.hpp */; };
+		A108E01F1F711C37002A553D /* rapidxml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A108E0181F711C20002A553D /* rapidxml.hpp */; };
+		A108E0201F711C37002A553D /* RapidXmlNative.h in Headers */ = {isa = PBXBuildFile; fileRef = A108E0191F711C20002A553D /* RapidXmlNative.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A108E0141F711C20002A553D /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		A108E0151F711C20002A553D /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		A108E0161F711C20002A553D /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		A108E0171F711C20002A553D /* RapidXml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RapidXml.cpp; sourceTree = "<group>"; };
+		A108E0181F711C20002A553D /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		A108E0191F711C20002A553D /* RapidXmlNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidXmlNative.h; sourceTree = "<group>"; };
+		A179E2541F711BAB002DA73E /* RapidXML.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidXML.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A179E2571F711BAB002DA73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A179E2511F711BAB002DA73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A179E24B1F711BAB002DA73E = {
+			isa = PBXGroup;
+			children = (
+				A179E2561F711BAB002DA73E /* RapidXML */,
+				A179E2551F711BAB002DA73E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A179E2551F711BAB002DA73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A179E2541F711BAB002DA73E /* RapidXML.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A179E2561F711BAB002DA73E /* RapidXML */ = {
+			isa = PBXGroup;
+			children = (
+				A108E0141F711C20002A553D /* rapidxml_iterators.hpp */,
+				A108E0151F711C20002A553D /* rapidxml_print.hpp */,
+				A108E0161F711C20002A553D /* rapidxml_utils.hpp */,
+				A108E0171F711C20002A553D /* RapidXml.cpp */,
+				A108E0181F711C20002A553D /* rapidxml.hpp */,
+				A108E0191F711C20002A553D /* RapidXmlNative.h */,
+				A179E2571F711BAB002DA73E /* Info.plist */,
+			);
+			path = RapidXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A108E01B1F711C2E002A553D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108E01C1F711C37002A553D /* rapidxml_iterators.hpp in Headers */,
+				A108E01D1F711C37002A553D /* rapidxml_print.hpp in Headers */,
+				A108E01E1F711C37002A553D /* rapidxml_utils.hpp in Headers */,
+				A108E01F1F711C37002A553D /* rapidxml.hpp in Headers */,
+				A108E0201F711C37002A553D /* RapidXmlNative.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A179E2531F711BAB002DA73E /* RapidXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A179E25A1F711BAB002DA73E /* Build configuration list for PBXNativeTarget "RapidXML" */;
+			buildPhases = (
+				A179E2501F711BAB002DA73E /* Sources */,
+				A179E2511F711BAB002DA73E /* Frameworks */,
+				A179E2521F711BAB002DA73E /* Resources */,
+				A108E01B1F711C2E002A553D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapidXML;
+			productName = RapidXML;
+			productReference = A179E2541F711BAB002DA73E /* RapidXML.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A179E24C1F711BAB002DA73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pixelboy;
+				TargetAttributes = {
+					A179E2531F711BAB002DA73E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A179E24F1F711BAB002DA73E /* Build configuration list for PBXProject "RapidXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A179E24B1F711BAB002DA73E;
+			productRefGroup = A179E2551F711BAB002DA73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A179E2531F711BAB002DA73E /* RapidXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A179E2521F711BAB002DA73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A179E2501F711BAB002DA73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108E01A1F711C20002A553D /* RapidXml.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A179E2581F711BAB002DA73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A179E2591F711BAB002DA73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A179E25B1F711BAB002DA73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RapidXML/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelboy.RapidXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A179E25C1F711BAB002DA73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RapidXML/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelboy.RapidXML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A179E24F1F711BAB002DA73E /* Build configuration list for PBXProject "RapidXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A179E2581F711BAB002DA73E /* Debug */,
+				A179E2591F711BAB002DA73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A179E25A1F711BAB002DA73E /* Build configuration list for PBXNativeTarget "RapidXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A179E25B1F711BAB002DA73E /* Debug */,
+				A179E25C1F711BAB002DA73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A179E24C1F711BAB002DA73E /* Project object */;
+}

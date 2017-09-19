@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19171FE1F7121B300EC90B0 /* rapidxml_iterators.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A19171F81F7121B300EC90B0 /* rapidxml_iterators.hpp */; };
+		A19171FF1F7121B300EC90B0 /* rapidxml_print.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A19171F91F7121B300EC90B0 /* rapidxml_print.hpp */; };
+		A19172001F7121B300EC90B0 /* rapidxml_utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A19171FA1F7121B300EC90B0 /* rapidxml_utils.hpp */; };
+		A19172011F7121B300EC90B0 /* RapidXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A19171FB1F7121B300EC90B0 /* RapidXml.cpp */; };
+		A19172021F7121B300EC90B0 /* rapidxml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A19171FC1F7121B300EC90B0 /* rapidxml.hpp */; };
+		A19172031F7121B300EC90B0 /* RapidXmlNative.h in Headers */ = {isa = PBXBuildFile; fileRef = A19171FD1F7121B300EC90B0 /* RapidXmlNative.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A19171E91F71216E00EC90B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A19171EB1F71216E00EC90B0 /* libRapidXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRapidXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19171F81F7121B300EC90B0 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		A19171F91F7121B300EC90B0 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		A19171FA1F7121B300EC90B0 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		A19171FB1F7121B300EC90B0 /* RapidXml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RapidXml.cpp; sourceTree = "<group>"; };
+		A19171FC1F7121B300EC90B0 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		A19171FD1F7121B300EC90B0 /* RapidXmlNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidXmlNative.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19171E81F71216E00EC90B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19171E21F71216D00EC90B0 = {
+			isa = PBXGroup;
+			children = (
+				A19171ED1F71216E00EC90B0 /* RapidXML */,
+				A19171EC1F71216E00EC90B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19171EC1F71216E00EC90B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19171EB1F71216E00EC90B0 /* libRapidXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19171ED1F71216E00EC90B0 /* RapidXML */ = {
+			isa = PBXGroup;
+			children = (
+				A19171F81F7121B300EC90B0 /* rapidxml_iterators.hpp */,
+				A19171F91F7121B300EC90B0 /* rapidxml_print.hpp */,
+				A19171FA1F7121B300EC90B0 /* rapidxml_utils.hpp */,
+				A19171FB1F7121B300EC90B0 /* RapidXml.cpp */,
+				A19171FC1F7121B300EC90B0 /* rapidxml.hpp */,
+				A19171FD1F7121B300EC90B0 /* RapidXmlNative.h */,
+			);
+			path = RapidXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A19171F71F71219A00EC90B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19171FE1F7121B300EC90B0 /* rapidxml_iterators.hpp in Headers */,
+				A19172031F7121B300EC90B0 /* RapidXmlNative.h in Headers */,
+				A19171FF1F7121B300EC90B0 /* rapidxml_print.hpp in Headers */,
+				A19172001F7121B300EC90B0 /* rapidxml_utils.hpp in Headers */,
+				A19172021F7121B300EC90B0 /* rapidxml.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A19171EA1F71216E00EC90B0 /* RapidXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19171F41F71216E00EC90B0 /* Build configuration list for PBXNativeTarget "RapidXML" */;
+			buildPhases = (
+				A19171E71F71216E00EC90B0 /* Sources */,
+				A19171E81F71216E00EC90B0 /* Frameworks */,
+				A19171E91F71216E00EC90B0 /* CopyFiles */,
+				A19171F71F71219A00EC90B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapidXML;
+			productName = RapidXML;
+			productReference = A19171EB1F71216E00EC90B0 /* libRapidXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19171E31F71216D00EC90B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pixelboy;
+				TargetAttributes = {
+					A19171EA1F71216E00EC90B0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A19171E61F71216E00EC90B0 /* Build configuration list for PBXProject "RapidXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A19171E21F71216D00EC90B0;
+			productRefGroup = A19171EC1F71216E00EC90B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19171EA1F71216E00EC90B0 /* RapidXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19171E71F71216E00EC90B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19172011F7121B300EC90B0 /* RapidXml.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A19171F21F71216E00EC90B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A19171F31F71216E00EC90B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A19171F51F71216E00EC90B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A19171F61F71216E00EC90B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19171E61F71216E00EC90B0 /* Build configuration list for PBXProject "RapidXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19171F21F71216E00EC90B0 /* Debug */,
+				A19171F31F71216E00EC90B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19171F41F71216E00EC90B0 /* Build configuration list for PBXNativeTarget "RapidXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19171F51F71216E00EC90B0 /* Debug */,
+				A19171F61F71216E00EC90B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19171E31F71216D00EC90B0 /* Project object */;
+}
