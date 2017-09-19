@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+<RECORD id="1" name="闯王宝藏" needLevel="20" description="当年闯王兵败在即，他派心腹侍卫飞天狐狸将宝藏藏在关外玉笔峰，又布置重重机关，意图阻拦闯入之人。" dungeonId="63001" image="SpriteSheet/activity|dreamland1|dreamland2" dropList="122063|122064|122072" teamTargetId="12"/>
+<RECORD id="2" name="古城宝藏" needLevel="30" description="回部古城宝藏，宝藏藏宝图藏在回部宝剑中，此剑有双层剑鞘，第二层剑鞘也是利刃。" dungeonId="63002|63003" image="SpriteSheet/activity|dreamland7|dreamland8" dropList="123063|123064|123072,123081|123082|123090" teamTargetId="13|14"/>
+<RECORD id="3" name="琅嬛福地" needLevel="40" description="位于大理国无量山中一深谷石洞中，内里收藏有逍遥派掌门人无崖子与师妹李秋水搜集的大量武学典籍。" dungeonId="63004|63005|63006" image="SpriteSheet/activity|dreamland11|dreamland12" dropList="124063|124064|124072,124063|124064|124072,124081|124082|124090" teamTargetId="15|16|17"/>
+<RECORD id="4" name="杨公宝库" needLevel="50" description="杨公宝库的创始者是隋朝大都督 杨素，开国十几年来他喜欢收天下宝物，把天下宝物整理制成“杨公宝库”。" dungeonId="63007|63008|63009" image="SpriteSheet/activity|dreamland9|dreamland10" dropList="125063|125064|125072,125063|125064|125072,125081|125082|125090" teamTargetId="18|19|20"/>
+<RECORD id="5" name="古墓秘穴" needLevel="60" description="「全真教」始祖王重阳举义师反抗金兵，建造了一座石墓存放军粮物资，其中机关众多。" dungeonId="63010|63011|63012" image="SpriteSheet/activity|dreamland5|dreamland6" dropList="126063|126064|126072,126063|126064|126072,126081|126082|126090" teamTargetId="21|22|23"/>
+<RECORD id="6" name="昆仑幽谷" needLevel="70" description="昆仑山中的幽谷，内有乾坤，身怀九阳神功的白猿便藏身此处。" dungeonId="63013|63014|63015" image="SpriteSheet/activity|dreamland3|dreamland4" dropList="127063|127064|127072,127063|127064|127072,127081|127082|127090" teamTargetId="24|25|26"/>
+</RECORDS>
